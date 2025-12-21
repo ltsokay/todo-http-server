@@ -4,6 +4,7 @@ from storage import Storage
 from logger import log
 
 app = Flask(__name__)
+app.config['JSON_AS_ASCII'] = False
 storage = Storage()
 
 tasks = storage.load()
