@@ -1,8 +1,0 @@
-[
-    {
-        "id": 1,
-        "title": "Test",
-        "priority": "low",
-        "isDone": true
-    }
-]
